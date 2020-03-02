@@ -10,8 +10,10 @@ module.exports.handler = async function(event, context) {
   }
 }
 
-// Now you are ready to access this API from anywhere in your Gatsby app! For example, in any event handler or lifecycle method, insert:
+// Now you are ready to access this API from anywhere in your Gatsby app! For example, in any even
+// handler or lifecycle method, insert:
 // fetch("/.netlify/functions/hello")
 //    .then(response => response.json())
 //    .then(console.log)
-// For more info see: https://www.gatsbyjs.org/blog/2018-12-17-turning-the-static-dynamic/#static-dynamic-is-a-spectrum
+// For more info see:
+// https://www.gatsbyjs.org/blog/2018-12-17-turning-the-static-dynamic/#static-dynamic-is-a-spectrum
